@@ -1,8 +1,7 @@
 import tkinter as tk
 
 class Calculator(tk.Tk):
-    def calculate_currency(var
-    ):
+    def calculate_currency(var):
         user_money = int(money.get())
         rate = var.get()
         result = round(user_money / rate, 2)
